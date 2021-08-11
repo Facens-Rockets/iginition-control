@@ -11,7 +11,6 @@ uint8_t count_ignition = 0;
 void ignition_buttons_code(void* parameters) {
   bool ignition_lock = true;
   
-
   // while (true) {
   //   while (!digitalRead(ignition_button)) {
   //     vTaskDelay(1);
